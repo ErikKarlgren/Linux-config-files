@@ -3,4 +3,5 @@ if status is-interactive
     set fish_greeting
     alias ip 'ip -c'
     alias ls 'lsd'
+    alias grep rg
 end
