@@ -10,8 +10,7 @@ set smartindent
 " Remaps
 let mapleader = " "
 nnoremap <leader>pv :Vex<CR>
-nnoremap <Leader><CR> :so ~/.config/nvim/init.vim<CR>
-nnoremap <C-p> :GFiles<CR>
+nnoremap <leader><CR> :so ~/.config/nvim/init.vim<CR>
 
 " Telescope remaps
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
@@ -22,14 +21,12 @@ nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 " Plugins
 call plug#begin('~/.vim/plugged')
 
-"Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-"Plug 'junegunn/fzf.vim'
-
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
 
 Plug 'neovim/nvim-lspconfig'
-"Plug 'simrat39/rust-tools.nvim'
+
+Plug 'khaveesh/vim-fish-syntax'
 
 call plug#end()
 
