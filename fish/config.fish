@@ -9,4 +9,7 @@ if status is-interactive
     alias code codium
     alias vim nvim
     alias e nvim
+
+    # Bindings
+    bind '[3;5~' kill-word  # ctrl + supr: delete word to the right
 end
