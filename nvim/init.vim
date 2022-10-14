@@ -19,6 +19,7 @@ Plug 'nvim-lualine/lualine.nvim'
 Plug 'phaazon/hop.nvim'
 Plug 'ActivityWatch/aw-watcher-vim'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+Plug 'khaveesh/vim-fish-syntax'
 
 call plug#end()
 
@@ -42,6 +43,7 @@ nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 " Hop remaps
 nnoremap <leader>hh <cmd>HopWord<cr>
 nnoremap <leader>hp <cmd>HopPattern<cr>
+
 
 lua << END
     -- More hop remaps
